@@ -1,0 +1,11 @@
+[package]
+name = "github-service"
+version = "25.7.1"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+octocrab = "0.44"
+futures = "0.3"
+anyhow = "1.0"
+thiserror = "2.0"
